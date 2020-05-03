@@ -1,4 +1,3 @@
-
 import setuptools
 
 with open("README.md", "r", encoding="utf-8") as fh:
@@ -14,5 +13,7 @@ setuptools.setup(
     url='https://github.com/sarah-schmoller/lizzy',
     license='MIT',
     packages=['lizzy'],
-    install_requires=['regex'],
+    package_data={'lizzy': ['mirror.json', 'script.json', 'synonyms.json']},
+    include_package_data=True,
+    install_requires=['regex']
 )
