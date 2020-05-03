@@ -1,0 +1,3 @@
+include lizzy/mirror.json
+include lizzy/script.json
+include lizzy/synonyms.json

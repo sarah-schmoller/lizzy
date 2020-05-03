@@ -13,7 +13,7 @@ setuptools.setup(
     url='https://github.com/sarah-schmoller/lizzy',
     license='MIT',
     packages=['lizzy'],
-    package_data={'lizzy': ['mirror.json', 'script.json', 'synonyms.json']},
+    package_data={'lizzy': ['./mirror.json', './script.json', './synonyms.json']},
     include_package_data=True,
     install_requires=['regex']
 )
