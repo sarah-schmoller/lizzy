@@ -34,13 +34,13 @@ class Lizzy:
 
     def load(self):
 
-        with open('script.json') as json_file:
+        with open('./script.json') as json_file:
             script = json.load(json_file)
 
-        with open('synonyms.json') as json_file:
+        with open('./synonyms.json') as json_file:
             synonyms = json.load(json_file)
 
-        with open('mirror.json') as json_file:
+        with open('./mirror.json') as json_file:
             mirror = json.load(json_file)
 
         self.data = Data(script, synonyms, mirror)
