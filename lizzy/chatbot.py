@@ -1,6 +1,7 @@
 import json
 import string
 import re
+import os
 
 
 class Data:
@@ -34,13 +35,15 @@ class Lizzy:
 
     def load(self):
 
-        with open('./script.json') as json_file:
+        module_dir = os.path.dirname(__file__)
+
+        with open(os.path.join(module_dir, 'script.json')) as json_file:
             script = json.load(json_file)
 
-        with open('./synonyms.json') as json_file:
+        with open(os.path.join(module_dir, 'synonyms.json')) as json_file:
             synonyms = json.load(json_file)
 
-        with open('./mirror.json') as json_file:
+        with open(os.path.join(module_dir, 'mirror.json')) as json_file:
             mirror = json.load(json_file)
 
         self.data = Data(script, synonyms, mirror)
