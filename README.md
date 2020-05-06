@@ -14,7 +14,7 @@ pip install git+https://github.com/sarah-schmoller/lizzy.git
 ```
 
 To run, start Python in your teminal and execute the following script:
-
+https://github.com/sarah-schmoller/lizzy/blob/main/demo.gif
 ```
 from lizzy import chatbot
 
@@ -23,3 +23,5 @@ eliza.load()
 eliza.run()
 
 ```
+
+![](https://github.com/sarah-schmoller/lizzy/blob/main/demo.gif)
