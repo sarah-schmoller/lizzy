@@ -13,7 +13,7 @@ The chatbot can be downloaded via pip using the following command:
 pip install git+https://github.com/sarah-schmoller/lizzy.git
 ```
 
-To run, execute the following Python script:
+To run, start Python in your teminal and execute the following script:
 
 ```
 from lizzy import chatbot
