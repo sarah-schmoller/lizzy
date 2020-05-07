@@ -24,4 +24,4 @@ eliza.run()
 
 ```
 
-![](https://github.com/sarah-schmoller/lizzy/blob/main/demo.gif = 250x)
+![](https://github.com/sarah-schmoller/lizzy/blob/main/demo.gif)
